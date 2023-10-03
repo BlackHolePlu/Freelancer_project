@@ -1,0 +1,32 @@
+.container {
+  margin: 0 335px;
+}
+
+.portfolio {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 90px;
+  font-size: 34px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.portCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.link {
+  color: #070707;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
