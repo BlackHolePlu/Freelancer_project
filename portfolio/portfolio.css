@@ -1,5 +1,5 @@
 .container {
-  margin: 0 335px;
+  margin: 0 160px;
 }
 
 .portfolio {
@@ -10,11 +10,12 @@
   text-align: center;
 }
 
-h2 {
+.portfolioHead {
   margin-top: 90px;
   font-size: 34px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  margin-top: 90px;
 }
 
 .portCont {
@@ -24,9 +25,17 @@ h2 {
   margin-top: 90px;
 }
 
-.link {
+.portlink {
   color: #070707;
   margin-top: 40px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
+}
+
+.last {
+  margin-bottom: 90px;
+}
+
+.mobiImg {
+  display: none;
 }

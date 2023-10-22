@@ -1,0 +1,68 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+}
+
+.logoAndNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: relative;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.logo::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fda300;
+  position: absolute;
+  top: 36px;
+  left: 98px;
+}
+
+.navigation {
+  width: 486px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+h1 {
+  width: 370px;
+  font-size: 34px;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 400px;
+  margin-top: 100px;
+}
+
+.mobiHeroImg {
+  display: none;
+}
+
+.burger {
+  display: none;
+}

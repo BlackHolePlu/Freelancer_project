@@ -1,0 +1,7 @@
+.modal {
+    display: none;
+}
+
+.link.active {
+    color: #606060;
+  }
